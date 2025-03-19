@@ -6,9 +6,9 @@ pool:
 
 stages:
 - stage: Build
-  displayName: "Run Hello world"
+  displayName: "Run Hello world the pipeline has been changes"
   steps:
-    - scripts: echo "Hello-worldss"
+    - scripts: echo "Hello-worldss the pipeline has been change"
       displayName: 'Print Hello world'
 
 - stage: Deploy
