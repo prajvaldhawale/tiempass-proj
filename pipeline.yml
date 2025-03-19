@@ -8,7 +8,7 @@ stages:
 - stage: Build
   displayName: "Run Hello world"
   steps:
-    - scripts: echo "Hello-worlds"
+    - scripts: echo "Hello-worldss"
       displayName: 'Print Hello world'
 
 - stage: Deploy
